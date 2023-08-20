@@ -12,14 +12,14 @@ export default function About({}: Props) {
             <h3 className="tracking-[20px] text-gray-500 absolute top-24 uppercase text-2xl">About</h3>
 
             <div
-                className="flex flex-col ">
+                className="flex flex-col mt-[15vh]">
                 <motion.div initial={{x: -200, opacity: 0}} transition={{duration: 1}} whileInView={{x: 0, opacity: 1}} className="mb-5">
                     <Image src={profile} alt="profile picture"
                            className="w-56 h-56 mx-auto  rounded-full object-cover md:rounded-lg"/>
                 </motion.div>
 
                 <p className="md:px-20 py-10 text-gray-200 leading-8 text-center">
-                    My passion for React development goes beyond lines of code. I'm dedicated to creating impactful,
+                    My passion for Software development goes beyond lines of code. I'm dedicated to creating impactful,
                     seamless user experiences that elevate brands and engage audiences. As a proactive learner, I stay
                     up-to-date with the latest industry trends and technologies, ensuring that my contributions are
                     always at the forefront of innovation.
