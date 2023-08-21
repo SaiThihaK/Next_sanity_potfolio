@@ -13,7 +13,7 @@ const Contact = (props: Props) => {
           I have got just what you need
         </h4>
         <span className="text-4xl text-gray-100 text-center text-[#F7AB0A]/50">
-          &nbsp;Let's Talk.
+          Lets Talk.
         </span>
       </div>
     </div>

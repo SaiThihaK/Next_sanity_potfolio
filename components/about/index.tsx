@@ -19,7 +19,7 @@ export default function About({}: Props) {
                 </motion.div>
 
                 <p className="md:px-20 py-10 text-gray-200 leading-8 text-center">
-                    My passion for Software development goes beyond lines of code. I'm dedicated to creating impactful,
+                    My passion for Software development goes beyond lines of code. I am dedicated to creating impactful,
                     seamless user experiences that elevate brands and engage audiences. As a proactive learner, I stay
                     up-to-date with the latest industry trends and technologies, ensuring that my contributions are
                     always at the forefront of innovation.
@@ -28,7 +28,7 @@ export default function About({}: Props) {
                     exceptional solutions, I am excited to bring my energy, skills, and experience to a forward-looking
                     team that values collaboration, innovation, and growth.
 
-                    Let's work together to transform ideas into reality and create web experiences that resonate with
+                    Lets work together to transform ideas into reality and create web experiences that resonate with
                     users on a deeper level.
                 </p>
             </div>

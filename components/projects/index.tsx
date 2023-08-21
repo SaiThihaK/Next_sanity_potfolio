@@ -15,11 +15,10 @@ export default function Project({}: Props) {
       <div className="mt-[15vh] max-w-7xl relative flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
         {projects.map((e, index) => (
           <div
-            className="flex-shrink-0 snap-center flex flex-col space-y-5 items-center h-screen justify-center p-20 md:p-44"
+            className="flex-shrink-0 snap-center flex flex-col space-y-5 items-center  justify-center p-20 md:p-44"
             key={index}
           >
             <Image src={project} alt="project" className="w-[40rem] mx-auto" />
-
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
               <h4 className="text-gray-100 text-4xl font-semibold text-start">
                 <span className="underline decoration-[#F7AB0A]/50">
@@ -31,7 +30,7 @@ export default function Project({}: Props) {
           </div>
         ))}
       </div>
-      <div className="w-full absolute top-[25%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12" />
+      <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[500px] -skew-y-12" />
     </div>
   );
 }
