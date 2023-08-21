@@ -9,7 +9,7 @@ type Props = {};
 export default function ExperienceCard({}: Props) {
     return (
         <div
-            className="flex flex-col rounded-lg  items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10">
+            className="flex flex-col rounded-lg  items-center space-y-7 flex-shrink-0 w-[300px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10">
             <motion.div initial={{y: -100, opacity: 0}} whileInView={{opacity: 1, y: 0}} transition={{duration: 1}}>
                 <Image src={profile} alt="profile"
                        className="w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center"/>

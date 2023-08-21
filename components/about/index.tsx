@@ -8,8 +8,8 @@ type Props = {};
 export default function About({}: Props) {
     return (
         <div
-            className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl px-10 justify-center mx-auto items-center">
-            <h3 className="tracking-[20px] text-gray-500 absolute top-24 uppercase text-2xl">About</h3>
+            className="flex flex-col relative min-h-screen text-center md:text-left md:flex-row max-w-7xl px-3 md:px-10 justify-center mx-auto items-center">
+            <h3 className="tracking-[20px] text-gray-500 absolute top-10 md:top-24 uppercase text-2xl">About</h3>
 
             <div
                 className="flex flex-col mt-[15vh]">
@@ -18,7 +18,7 @@ export default function About({}: Props) {
                            className="w-56 h-56 mx-auto  rounded-full object-cover md:rounded-lg"/>
                 </motion.div>
 
-                <p className="md:px-20 py-10 text-gray-200 leading-8 text-center">
+                <p className="px-0 md:px-20 py-10 text-gray-200 leading-8 text-center">
                     My passion for Software development goes beyond lines of code. I am dedicated to creating impactful,
                     seamless user experiences that elevate brands and engage audiences. As a proactive learner, I stay
                     up-to-date with the latest industry trends and technologies, ensuring that my contributions are

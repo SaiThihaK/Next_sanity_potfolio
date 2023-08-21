@@ -6,22 +6,21 @@ type Props = {
 };
 export default function Skill({directionLeft}: Props) {
     return (
-        <div className="group relative flex ">
+        <div className="group relative flex w-full">
             <motion.div
                 initial={{
-                    x: directionLeft ? -200 :200,
+                    y: directionLeft ? -200 :200,
                     opacity:0
                 }}
                 whileInView={{
-                    x: 0,
+                    y: 0,
                     opacity:1
                 }}
                 transition={{
                     duration:1
                 }}
-                className="overflow-x-hidden"
             >
-            <Image src={react} alt="react logo" className="rounded-full border border-gray-500 object-cover w-24 h-24 xl:w-28 xl:h-28" />
+            <Image src={react} alt="react logo" className="rounded-full border border-gray-500 object-cover w-[40px] h-[40px] md:w-[60px] md:h-[60px]" />
             </motion.div>
         </div>
     );
