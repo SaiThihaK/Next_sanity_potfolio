@@ -9,7 +9,7 @@ import Contact from "@/components/contact/index"
 
 export default function Home() {
     return (
-        <div className="bg-[rgb(36,36,36)] flex flex-col snap-y snap-mandatory p-2">
+        <div className="bg-[rgb(36,36,36)]  flex flex-col snap-y snap-mandatory p-2 overflow-x-hidden  ">
             <Header/>
             <section className="snap-center">
                 <Hero/>
