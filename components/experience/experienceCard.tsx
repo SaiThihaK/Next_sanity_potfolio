@@ -16,7 +16,7 @@ export default function ExperienceCard({}: Props) {
             </motion.div>
             <div className="px-0 md:px-10 text-gray-200 font-light">
                 <h4>React Developer</h4>
-                <p className="font-bold text-2xl mt-1">BMPS Education Center</p>
+                <p className="font-bold text-lg md:text-2xl  mt-1">BMPS Education Center</p>
                 <div className="flex space-x-2 my-2">
                     <Image className="h-10 w-10 rounded-full " src={react} alt="react"/>
                     <Image className="h-10 w-10 rounded-full " src={react} alt="react"/>
@@ -24,7 +24,7 @@ export default function ExperienceCard({}: Props) {
                     <Image className="h-10 w-10 rounded-full " src={react} alt="react"/>
                 </div>
                 <p className="uppercase py-5 text-gray-300">Started Work... - Ended...</p>
-                <ul className="list-disc space-y-4 ml-5 text-lg">
+                <ul className="list-disc space-y-4 ml-5 text-sm md:text-lg">
                     <li>Summary Points</li>
                     <li>Summary Points</li>
                     <li>Summary Points</li>

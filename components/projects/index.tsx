@@ -12,13 +12,13 @@ export default function Project({}: Props) {
         Projects
       </h3>
 
-      <div className=" items-center w-full relative flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
+      <div className=" items-center w-screen relative flex overflow-x-scroll  overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-thumb-[#F7AB0A]">
         {projects.map((e, index) => (
           <div
-            className="flex-shrink-0 snap-center flex flex-col space-y-5 items-center  justify-center p-20 md:p-44"
+            className="flex-shrink-0 snap-center flex flex-col  space-y-5 items-center  justify-center p-20 md:p-44"
             key={index}
           >
-            <Image src={project} alt="project" className="object-fill w-[250px] md:w-[600px] mx-auto" />
+            <Image src={project} alt="project" className="object-fill w-[300px] h-[150px] md:w-[700px] md:h-[400px] mx-auto" />
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
               <h4 className="text-gray-100 text-sm md:text-2xl font-semibold text-start">
                 <span className="underline decoration-[#F7AB0A]/50">
@@ -30,7 +30,7 @@ export default function Project({}: Props) {
           </div>
         ))}
       </div>
-      <div className="w-full absolute top-[30%] bg-[#F7AB0A]/10 left-0 h-[300px] md:h-[500px] -skew-y-12" />
+      <div className="w-full absolute top-[35%] bg-[#F7AB0A]/30 left-0 h-[150px] md:h-[400px] -skew-y-12" />
     </div>
   );
 }
