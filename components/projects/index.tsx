@@ -8,11 +8,11 @@ export default function Project({}: Props) {
   const projects = [1, 2, 3, 4, 5, 6];
   return (
     <div className="flex max-w-7xl flex-col md:flex-row relative h-screen text-center md:text-left px-10 justify-evenly mx-auto items-center">
-      <h3 className="tracking-[20px] text-gray-500 absolute top-24 uppercase text-2xl">
+      <h3 className="tracking-[20px] text-[#F7AB0A] absolute top-24 uppercase text-2xl">
         Projects
       </h3>
 
-      <div className=" items-center w-screen relative flex overflow-x-scroll  overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-thumb-[#F7AB0A]">
+      <div className=" items-center w-screen relative flex overflow-x-scroll  overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-thumb-[#F7AB0A]">
         {projects.map((e, index) => (
           <div
             className="flex-shrink-0 snap-center flex flex-col  space-y-5 items-center  justify-center p-20 md:p-44"
