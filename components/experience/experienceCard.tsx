@@ -18,10 +18,10 @@ export default function ExperienceCard({}: Props) {
                 <h4 className="text-sm xl:text-xl">React Developer</h4>
                 <p className="font-bold text-lg md:text-xl xl:text-2xl mt-1">BMPS Education Center</p>
                 <div className="flex space-x-5 my-2  justify-start">
-                    <Image className="h-7 w-7 xl:w-10 xl:h-10 rounded-full animate-bounce " src={react} alt="react"/>
-                    <Image className="h-7 w-7 xl:w-10 xl:h-10 rounded-full animate-bounce " src={react} alt="react"/>
-                    <Image className="h-7 w-7 xl:w-10 xl:h-10 rounded-full animate-bounce " src={react} alt="react"/>
-                    <Image className="h-7 w-7 xl:w-10 xl:h-10 rounded-full animate-bounce " src={react} alt="react"/>
+                    <Image className="h-7 w-7 xl:w-10 xl:h-10 rounded-full" src={react} alt="react"/>
+                    <Image className="h-7 w-7 xl:w-10 xl:h-10 rounded-full" src={react} alt="react"/>
+                    <Image className="h-7 w-7 xl:w-10 xl:h-10 rounded-full" src={react} alt="react"/>
+                    <Image className="h-7 w-7 xl:w-10 xl:h-10 rounded-full" src={react} alt="react"/>
                 </div>
                 <p className="uppercase py-5 text-xs md:text-sm xl:text-lg text-gray-300">Started Work... - Ended...</p>
                 <ul className="list-disc space-y-4 ml-5 text-xs md:text-sm xl:text-lg">

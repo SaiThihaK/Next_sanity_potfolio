@@ -9,7 +9,7 @@ export default function About({}: Props) {
     return (
         <div
             className="flex flex-col relative min-h-screen text-center md:text-left md:flex-row max-w-7xl px-3 md:px-10 justify-center mx-auto items-center">
-            <h3 className="tracking-[20px] text-[#F7AB0A] absolute top-[60px] xL:top-24 uppercase text-lg md:text-2xl">About</h3>
+            <h3 className="tracking-[10px] md:tracking-[15px] xl:tracking-[20px] text-[#F7AB0A] absolute top-[60px] xL:top-24 uppercase text-lg md:text-2xl">About</h3>
 
             <div
                 className="flex flex-col mt-[15vh]">
