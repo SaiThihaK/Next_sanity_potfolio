@@ -1,3 +1,5 @@
+
+
 import Header from "@/components/header";
 import Hero from "@/components/hero";
 import About from "@/components/about"
@@ -7,10 +9,13 @@ import Contact from "@/components/contact/index"
 import Experience from "@/components/experience";
 
 
+
 export default function Home() {
+
+
     return (
 
-        <div className="bg-[rgb(36,36,36)] h-screen  w-full   snap-y snap-mandatory p-2 overflow-x-hidden ">
+        <div    className="bg-[rgb(36,36,36)]  h-screen   w-full   snap-y snap-mandatory p-2 overflow-x-hidden ">
             <Header/>
             <section className="snap-center">
                 <Hero/>
