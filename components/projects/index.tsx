@@ -8,7 +8,7 @@ export default function Project({}: Props) {
   const projects = [1, 2, 3, 4, 5, 6];
   return (
     <div className="flex max-w-7xl flex-col md:flex-row relative h-screen text-center md:text-left px-10 justify-evenly mx-auto items-center">
-        <h3 className="tracking-[20px] text-[#F7AB0A] absolute top-[60px] xL:top-24 uppercase text-lg md:text-2xl">
+        <h3 className="tracking-[10px] md:tracking-[15px] xl:tracking-[20px] text-[#F7AB0A] absolute top-[60px] xL:top-24 uppercase text-lg md:text-2xl">
             Projects
         </h3>
       <div className=" items-center w-screen h-screen relative flex overflow-x-scroll  overflow-y-hidden snap-x snap-mandatory z-20 scrollbar scrollbar-thumb-[#F7AB0A]">
