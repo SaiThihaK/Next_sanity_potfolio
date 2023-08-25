@@ -28,13 +28,13 @@ const Contact = (props: Props) => {
                 Contact Us
             </h3>
 
-            <div className="flex flex-col mt-[70px] xl:space-y-10">
+            <div className="flex flex-col mt-[70px] space-y-1 xl:space-y-10">
                 <h4 className="text-lg md:text-xl xl:text-4xl font-semibold flex flex-col text-center text-gray-100 space-y-4">
                     <span>I have got just what you need</span>
                     <span className=" text-[#F7AB0A]/50">&nbsp;Lets Talk.</span>
                 </h4>
                 <div>
-                    <div className="flex items-center space-x-5 justify-center">
+                    <div className="flex items-center space-x-5 space-y-3 justify-center">
                         <PhoneIcon
                             className="text-[#F7AB0A] h-[20px] w-[20px] md:h-[30px] md:w-[35px] xl:w-[35px] xl:h-[40px] animate-pulse"/>
                         <p className="text-xs md:text-lg xl:text-2xl text-gray-100">+959261705085</p>
