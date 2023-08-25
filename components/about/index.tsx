@@ -9,13 +9,13 @@ export default function About({}: Props) {
     return (
         <div
             className="flex flex-col relative min-h-screen text-center md:text-left md:flex-row max-w-7xl px-3 md:px-10 justify-center mx-auto items-center">
-            <h3 className="tracking-[20px] text-[#F7AB0A] absolute top-10 md:top-24 uppercase text-lg md:text-2xl">About</h3>
+            <h3 className="tracking-[20px] text-[#F7AB0A] absolute top-[60px] xL:top-24 uppercase text-lg md:text-2xl">About</h3>
 
             <div
                 className="flex flex-col mt-[15vh]">
                 <motion.div initial={{x: -200, opacity: 0}} transition={{duration: 1}} whileInView={{x: 0, opacity: 1}} className="mb-5">
                     <Image src={profile} alt="profile picture"
-                           className="w-56 h-56 mx-auto  rounded-full object-cover md:rounded-lg"/>
+                           className="w-[100px] h-[100px] xl:w-[300px] xl:h-[300px] mx-auto  rounded-full object-cover md:rounded-lg"/>
                 </motion.div>
 
                 <p className="px-0 md:px-20 py-10 text-gray-200 leading-8 text-center">
