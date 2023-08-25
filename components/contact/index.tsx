@@ -23,22 +23,22 @@ const Contact = (props: Props) => {
     }
     return (
         <div
-            className="flex flex-col md:flex-row relative h-screen text-center md:text-left  max-w-7xl px-1 md:px-10 justify-center mx-auto items-center">
+            className="flex flex-col md:flex-row relative h-screen text-center md:text-left  max-w-7xl px-1 md:px-10 justify-evenly mx-auto items-center">
             <h3 className="tracking-[10px] md:tracking-[15px] xl:tracking-[20px]  text-[#F7AB0A] absolute top-[60px] xL:top-24 uppercase text-lg md:text-2xl">
                 Contact Us
             </h3>
 
-            <div className="flex flex-col mt-[70px] space-y-5 md:space-y-0 xl:space-y-10">
+            <div className="flex flex-col mt-[70px] space-y-5 xl:space-y-10">
                 <h4 className="text-lg md:text-xl xl:text-4xl font-semibold flex flex-col text-center text-gray-100 space-y-4">
                     <span>I have got just what you need</span>
                     <span className=" text-[#F7AB0A]/50">&nbsp;Lets Talk.</span>
                 </h4>
                 <div className="space-y-2">
-                    <div className="flex  items-center w-[200px] mx-auto space-x-5  justify-between">
+                    <div className="flex  items-center w-[200px] md:w-[300px] mx-auto space-x-5  justify-between">
                         <PhoneIcon className="text-[#F7AB0A] h-[20px] w-[20px] md:h-[30px] md:w-[35px] xl:w-[35px] xl:h-[40px] animate-pulse"/>
                         <p className="text-xs md:text-lg xl:text-2xl text-gray-100">+959261705085</p>
                     </div>
-                    <div className="flex items-center w-[200px] mx-auto space-x-5 justify-between">
+                    <div className="flex items-center w-[200px] md:w-[300px] mx-auto space-x-5 justify-between">
                         <EnvelopeIcon
                             className="text-[#F7AB0A] h-[20px] w-[20px] md:h-[30px] md:w-[35px] xl:w-[35px] xl:h-[40px] animate-pulse"/>
                         <p className="text-xs md:text-lg xl:text-2xl text-gray-100">saithihak2@gmail.com</p>
