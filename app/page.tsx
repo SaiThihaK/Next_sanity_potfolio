@@ -9,7 +9,8 @@ import Experience from "@/components/experience";
 
 export default function Home() {
     return (
-        <div className="bg-[rgb(36,36,36)] h-screen  w-full  flex flex-col snap-y snap-mandatory p-2 overflow-x-hidden">
+
+        <div className="bg-[rgb(36,36,36)] h-screen  w-full   snap-y snap-mandatory p-2 overflow-x-hidden ">
             <Header/>
             <section className="snap-center">
                 <Hero/>
@@ -20,10 +21,10 @@ export default function Home() {
             <section id="experience" className="snap-end">
                 <Experience/>
             </section>
-            <section id="skills" className="snap-start">
+            <section id="skills" className="snap-center">
                 <Skills/>
             </section>
-            <section id="projects" className="snap-start">
+            <section id="projects" className="snap-end">
                 <Project/>
             </section>
 
