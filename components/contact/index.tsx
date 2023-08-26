@@ -3,7 +3,7 @@
 import React from "react";
 import {PhoneIcon, MapPinIcon, EnvelopeIcon} from "@heroicons/react/20/solid";
 import {SubmitHandler, useForm} from "react-hook-form";
-import ExperienceCard from "@/components/experience/experienceCard";
+import {motion} from "framer-motion";
 
 type Props = {};
 type Inputs = {
@@ -29,10 +29,10 @@ const Contact = (props: Props) => {
             </h3>
 
             <div className="flex flex-col mt-[70px] space-y-5 xl:space-y-10">
-                <h4 className="text-lg md:text-xl xl:text-4xl font-semibold flex flex-col text-center text-gray-100 space-y-4">
-                    <span>I have got just what you need</span>
-                    <span className=" text-[#F7AB0A]/50">&nbsp;Lets Talk.</span>
-                </h4>
+                <div className="text-lg md:text-xl xl:text-4xl font-semibold flex flex-col text-center text-gray-100 space-y-4">
+                    <motion.div  className="overflow-y-hidden">I have got just what you need</motion.div>
+                    <motion.div  animate={{y:0,opacity:1}} className=" text-[#F7AB0A]/50">&nbsp;Lets Talk.</motion.div>
+                </div>
                 <div className="space-y-2">
                     <div className="flex  items-center w-[200px] md:w-[300px] mx-auto space-x-5  justify-between">
                         <PhoneIcon className="text-[#F7AB0A] h-[20px] w-[20px] md:h-[30px] md:w-[35px] xl:w-[35px] xl:h-[40px] animate-pulse"/>
